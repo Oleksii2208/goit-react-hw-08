@@ -1,0 +1,45 @@
+.form {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 15px 0;
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.field {
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+.error {
+  color: rgb(250, 0, 0);
+  font-size: 12px;
+  position: absolute;
+  left: 0px;
+  bottom: -18px;
+}
+
+.btnAdd {
+  margin: 0 auto;
+  padding: 8px 25px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  background-color: rgb(10, 200, 255);
+  transition: background-color 300ms ease;
+}
+
+.btnAdd:hover,
+.btnAdd:focus {
+  background-color: rgb(43, 255, 255);
+}
