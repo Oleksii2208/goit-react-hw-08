@@ -1,3 +1,7 @@
+.title {
+  font-size: 36px;
+}
+
 .form {
   width: 400px;
   display: flex;
@@ -12,7 +16,7 @@
 .label {
   display: flex;
   flex-direction: column;
-  position: relative;
+  /* position: relative; */
 }
 
 .field {
@@ -21,18 +25,19 @@
   border: 1px solid black;
 }
 
-.error {
+/* .error {
   color: rgb(250, 0, 0);
   font-size: 12px;
   position: absolute;
   left: 0px;
   bottom: -18px;
-}
+} */
 
-.btnAdd {
+.btn {
+  font-size: 20px;
   color: #fff;
   margin: 0 auto;
-  padding: 8px 25px;
+  padding: 8px 35px;
   border-radius: 10px;
   border: none;
   cursor: pointer;
@@ -40,7 +45,15 @@
   transition: background-color 300ms ease;
 }
 
-.btnAdd:hover,
-.btnAdd:focus {
+.btn:hover,
+.btn:focus {
   background-color: rgb(43, 255, 255);
+}
+
+.linkRegister {
+  font-size: 18px;
+}
+
+.linkHome {
+  font-size: 18px;
 }
